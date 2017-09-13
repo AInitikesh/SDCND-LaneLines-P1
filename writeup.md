@@ -30,7 +30,7 @@ Step 5
 <img src="pipeline/hough_whiteCarLaneSwitch.jpg" width="480" alt="CombHoughined Image" />}
 
 Step 6
-<img src="etest_images_output/whiteCarLaneSwitch.jpg" width="480" alt="Final Image" />
+<img src="test_images_output/whiteCarLaneSwitch.jpg" width="480" alt="Final Image" />
 
 
 ### 2. Identify potential shortcomings with your current pipeline
