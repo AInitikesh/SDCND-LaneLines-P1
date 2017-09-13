@@ -10,8 +10,8 @@ The goals / steps of this project are the following:
 [image1]: ./pipeline/gray_whiteCarLaneSwitch.jpg "Grayscale"
 [image2]: ./pipeline/gaussian_whiteCarLaneSwitch.jpg "Gaussian blur"
 [image3]: ./pipeline/canny_whiteCarLaneSwitch.jpg "Canny"
-[image4]: ./pipeline/hough_whiteCarLaneSwitch.jpg "Hough"
-[image5]: ./pipeline/region_whiteCarLaneSwitch.jpg "Region"
+[image4]: ./pipeline/region_whiteCarLaneSwitch.jpg "Region"
+[image5]: ./pipeline/hough_whiteCarLaneSwitch.jpg "Hough"
 [image6]: ./test_images_output/whiteCarLaneSwitch.jpg "Final"
 
 ---
