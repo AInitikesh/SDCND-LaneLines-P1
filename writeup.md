@@ -24,24 +24,23 @@ My pipeline consisted of 6 steps. First, I converted the images to grayscale, th
 
 In order to draw a single line on the left and right lanes, I modified the draw_lines() function by identifing the slopes and y intercepts of each lines using np.polyfit. Then I made seperate arrays of all the points and slopes contibuting to left lane line and right lane line by making an hypothesis that left lane lines will have slopes between [0.45, 0.75] and right lane lines between [-0.85, -0.6] . Then I found the mean of all left and right points as well as slopes. Using mean slope, mean y and mean x of left and right lane lines I calculated the y intercepts using line equation b = y - mx. Haivng all this I calulated the upper and lower x coordinates for left and right lane lines using equation x = (y - b) / m where y is the mean or max value that an y intecept can have ie for calculating upper x coordinate y min is used and for calculating lower x coordinates y max is used. Now we have (x1 = upper_left_x, y1 = y_min), (x2 = lower_left_x, y2 = y_max) for left lane line and (x1 = upper_right_x, y1 = y_min), (x2 = lower_right_x, y2 = y_max) for rifht lane line.
 
-Outputs in pipeline
 Step 1
-![alt text][image1]
+![alt text][image1]{ width: 480px; }
 
 Step 2
-![alt text][image2]
+![alt text][image2]{ width: 480px; }
 
 Step 3
-![alt text][image3]
+![alt text][image3]{ width: 480px; }
 
 Step 4
-![alt text][image4]
+![alt text][image4]{ width: 480px; }
 
 Step 5
-![alt text][image5]
+![alt text][image5]{ width: 480px; }
 
 Step 6
-![alt text][image6]
+![alt text][image6]{ width: 480px; }
 
 
 ### 2. Identify potential shortcomings with your current pipeline
